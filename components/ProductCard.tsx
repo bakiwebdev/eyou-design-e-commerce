@@ -11,7 +11,7 @@ const ProductCard = () => {
           className='object-cover'
         />
         <span className='absolute flex w-fit px-3 py-1 bg-secondary rounded-full text-xs text-white m-1'>
-          50%
+          20%
         </span>
       </div>
       <div>
