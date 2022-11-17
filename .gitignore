@@ -34,3 +34,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# pages under construction
+/pages/[productId].tsx
+/pages/400.tsx
+/pages/500.tsx
+/pages/all-product.tsx
+/pages/forget-password.tsx
+/pages/login.tsx
+/pages/shopping-cart.tsx
+/pages/shopping-address.tsx
+/pages/shopping-summary.tsx
+/pages/shopping-success.tsx
+/pages/signup.tsx
