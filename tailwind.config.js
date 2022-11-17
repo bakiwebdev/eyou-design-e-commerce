@@ -11,6 +11,7 @@ module.exports = {
         lightPrimary: '#FFF3DF',
         secondary: '#FF0000',
         gray: '#CECECE',
+        grayText: '#808080',
         lightGray: '#F6F6F6',
       },
     },

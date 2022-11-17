@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import FeatureCard from '../components/FeatureCard'
+import Footer from '../components/footer'
 import CreditCardIcon from '../components/icons/CreditCardIcon'
 import RightArrowIcon from '../components/icons/RightArrowIcon'
 import ShieldIcon from '../components/icons/ShieldIcon'
@@ -150,7 +151,7 @@ export default function Home() {
           <ProductCard />
         </div>
       </section>
-      <div className='h-screen bg-green-50'></div>
+      <Footer />
     </div>
   )
 }
