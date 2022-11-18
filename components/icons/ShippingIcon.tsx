@@ -6,6 +6,7 @@ const ShippingIcon = () => {
       viewBox='0 0 60 52'
       width='60px'
       xmlns='http://www.w3.org/2000/svg'
+      stroke-width='1.5'
       stroke='currentColor'
       className='w-6 h-6'>
       <title />
@@ -18,7 +19,7 @@ const ShippingIcon = () => {
         stroke='none'
         stroke-width='1'>
         <g
-          fill='#000000'
+          fill='currentColor'
           id='Icon-17'
           transform='translate(0.000000, -8.000000)'>
           <path

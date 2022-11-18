@@ -14,7 +14,7 @@ const FeatureCard = ({
   primary,
 }: FeatureCardProps) => {
   return (
-    <div className='flex gap-3 justify-start items-start w-fit'>
+    <div className='flex gap-3 justify-start items-start w-fit max-w-xs'>
       <div
         className={`rounded-md flex box-border justify-center items-center p-4 bg-lightGray ${
           primary && 'bg-lightPrimary text-primary'
@@ -23,7 +23,7 @@ const FeatureCard = ({
       </div>
       <div className='flex flex-col'>
         <h3 className='text-md font-semibold'>{title}</h3>
-        <p className='text-sm font-extralight'>{description}</p>
+        <p className='text-sm font-extralight text-grayText'>{description}</p>
       </div>
     </div>
   )
