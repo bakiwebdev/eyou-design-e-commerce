@@ -20,7 +20,7 @@ const PromoCard = ({ tag, title, buttonName, onClick }: PromoCardProps) => {
         {title}
       </p>
       <div className='z-10'>
-        <Button name={buttonName} onClick={onClick} className={''} />
+        <Button name={buttonName} onClick={onClick} />
       </div>
       <div className='absolute top-0 left-0 h-full w-full'>
         <Image

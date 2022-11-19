@@ -3,7 +3,6 @@ import SectionWrapper from './SectionWrapper'
 
 const PromoSection = () => {
   return (
-    // <section className='h-fit w-full p-4 flex flex-col gap-4'>
     <SectionWrapper>
       <div className='h-56 lg:h-96 lg:flex lg:flex-1'>
         <PromoCard

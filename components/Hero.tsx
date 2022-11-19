@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       {/* footer */}
       <div className='absolute bottom-0 left-0 hidden md:flex h-32 w-full'>
-        <div className='flex h-full justify-center items-center gap-20 bg-white w-3/4 rounded-tr-[100px]'>
+        <div className='flex h-full justify-center items-center gap-20 bg-white w-3/4 rounded-tr-[70px]'>
           <FeatureCard
             icon={<ShippingIcon />}
             title='Free shipping'

@@ -8,44 +8,46 @@ import YoutubeIcon from './icons/YoutubeIcon'
 
 const Footer = () => {
   return (
-    <section className='mt-10'>
-      <section className='h-fit w-full p-4 flex flex-col items-start gap-4 '>
-        <Brand />
-        <p className='text-grayText tracking-wide text-md'>
-          House My Brand designs clothing for the young, the old & everyone in
-          between – but most importantly, for the fashionable
-        </p>
-        <div className='my-3 flex gap-10'>
-          <span className='fill-gray'>
-            <IconButton
-              icon={<FacebookIcon />}
-              onClick={() => console.log('facebook icon')}
-            />
-          </span>
-          <span className='fill-gray'>
-            <IconButton
-              icon={<TwitterIcon />}
-              onClick={() => console.log('twitter icon')}
-            />
-          </span>
-          <span className='fill-gray'>
-            <IconButton
-              icon={<LinkedinIcon />}
-              onClick={() => console.log('linkedin icon')}
-            />
-          </span>
-          <span className='fill-gray'>
-            <IconButton
-              icon={<InstagramIcon />}
-              onClick={() => console.log('instagram icon')}
-            />
-          </span>
-          <span className='fill-gray'>
-            <IconButton
-              icon={<YoutubeIcon />}
-              onClick={() => console.log('youtube icon')}
-            />
-          </span>
+    <section className='mt-10 lg:mt-28 flex flex-col'>
+      <section className='h-fit p-4 flex flex-col lg:flex-row items-start  lg:justify-between mx-4 lg:mx-24 gap-4'>
+        <div className='flex h-full flex-col lg:max-w-md gap-5 items-start'>
+          <Brand />
+          <p className='text-grayText tracking-wide text-md'>
+            House My Brand designs clothing for the young, the old & everyone in
+            between – but most importantly, for the fashionable
+          </p>
+          <div className='my-3 flex gap-10'>
+            <span className='fill-gray'>
+              <IconButton
+                icon={<FacebookIcon />}
+                onClick={() => console.log('facebook icon')}
+              />
+            </span>
+            <span className='fill-gray'>
+              <IconButton
+                icon={<TwitterIcon />}
+                onClick={() => console.log('twitter icon')}
+              />
+            </span>
+            <span className='fill-gray'>
+              <IconButton
+                icon={<LinkedinIcon />}
+                onClick={() => console.log('linkedin icon')}
+              />
+            </span>
+            <span className='fill-gray'>
+              <IconButton
+                icon={<InstagramIcon />}
+                onClick={() => console.log('instagram icon')}
+              />
+            </span>
+            <span className='fill-gray'>
+              <IconButton
+                icon={<YoutubeIcon />}
+                onClick={() => console.log('youtube icon')}
+              />
+            </span>
+          </div>
         </div>
 
         <div className='flex flex-col gap-2'>
@@ -73,8 +75,7 @@ const Footer = () => {
         </div>
       </section>
       <div className='p-5 border-t border-gray text-gray flex justify-center items-center text-sm font-light text-center'>
-        POWERED BY Eyou Design - © 2022.
-        <br /> ALL RIGHTS RESERVED.
+        POWERED BY Eyou Design - © 2022. ALL RIGHTS RESERVED.
       </div>
     </section>
   )
