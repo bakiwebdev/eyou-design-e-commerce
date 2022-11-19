@@ -11,7 +11,7 @@ const Hero = () => {
     <section className='h-screen w-full relative mb-10'>
       <div className='h-full w-full relative'>
         <Image
-          src='https://cdn.pixabay.com/photo/2020/12/13/16/37/woman-5828786_1280.jpg'
+          src='https://res.cloudinary.com/dcmvndqd1/image/upload/v1668853083/Eyou%20Design/photo_2022-11-19_11-13-11_ekedkt.jpg'
           alt='hero image'
           fill
           className='object-cover'
@@ -21,11 +21,9 @@ const Hero = () => {
       <div className='absolute top-0 left-0 flex w-full h-full justify-start items-center'>
         <div className='mx-5 md:mx-80 flex flex-col gap-8 lg:gap-16'>
           <p className='text-5xl lg:text-7xl text-white font-semibold tracking-wider'>
-            Sales of the
+            Traditional clothes
             <br />
-            summer
-            <br />
-            collection
+            and custom t-shirt design
           </p>
           <button className='w-fit flex jusce items-center gap-4 uppercase text-white font-bold'>
             <span className='h-10 w-10  bg-primary rounded-full flex justify-center items-center'>

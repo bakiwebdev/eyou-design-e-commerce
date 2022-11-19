@@ -19,12 +19,12 @@ const NewsletterSection = () => {
         </div>
         <div className='absolute top-0 left-0 h-full w-full'>
           <Image
-            src='https://cdn.pixabay.com/photo/2020/12/13/16/37/woman-5828786_1280.jpg'
-            alt='hero image'
+            src='https://res.cloudinary.com/dcmvndqd1/image/upload/v1668855194/Eyou%20Design/photo_2021-01-11_15-18-20_eqy7l1.jpg'
+            alt='Newsletter'
             fill
             className='object-cover'
           />
-          <div className='bg-black bg-opacity-25 w-full h-full absolute top-0 left-0'></div>
+          <div className='bg-black bg-opacity-40 w-full h-full absolute top-0 left-0'></div>
         </div>
       </div>
     </SectionWrapper>

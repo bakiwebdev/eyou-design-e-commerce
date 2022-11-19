@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar'
 import NewsletterSection from '../components/NewsletterSection'
 import PromoSection from '../components/PromoSection'
 import SelectedProductSection from '../components/SelectedProductSection'
+import { selected_product_data, today_deal_data } from '../data/product'
 
 export default function Home() {
   return (
@@ -14,12 +15,17 @@ export default function Home() {
       <Hero />
       <PromoSection />
       <SelectedProductSection
+        products={selected_product_data}
         header='Selected just for you'
         onClick={() => {}}
       />
       <CustomDesignServiceCard />
       <FeatureSection />
-      <SelectedProductSection header='Products in today' onClick={() => {}} />
+      <SelectedProductSection
+        products={today_deal_data}
+        header='Products in today'
+        onClick={() => {}}
+      />
       <NewsletterSection />
       <Footer />
     </div>

@@ -12,7 +12,7 @@ const FeatureSection = () => {
         <p className='mx-auto flex flex-1 w-full justify-center text-xl lg:text-3xl font-extralight my-5'>
           Why should you choose us ?
         </p>
-        <div className='flex flex-col lg:flex-row gap-4'>
+        <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 w-fit lg:mx-auto'>
           <FeatureCard
             icon={<ShippingIcon />}
             title='Free shipping'

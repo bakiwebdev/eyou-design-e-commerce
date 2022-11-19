@@ -2,13 +2,20 @@ import Image from 'next/image'
 import Button from './Button'
 
 interface PromoCardProps {
+  image: string
   tag?: string
   title: string
   buttonName: string
   onClick: () => void
 }
 
-const PromoCard = ({ tag, title, buttonName, onClick }: PromoCardProps) => {
+const PromoCard = ({
+  image,
+  tag,
+  title,
+  buttonName,
+  onClick,
+}: PromoCardProps) => {
   return (
     <div className='relative h-full w-full flex flex-col justify-end px-3 lg:px-8 py-5 lg:py-10 gap-2 lg:gap-5'>
       {tag && (
@@ -24,8 +31,8 @@ const PromoCard = ({ tag, title, buttonName, onClick }: PromoCardProps) => {
       </div>
       <div className='absolute top-0 left-0 h-full w-full'>
         <Image
-          src='https://cdn.pixabay.com/photo/2020/12/13/16/37/woman-5828786_1280.jpg'
-          alt='hero image'
+          src={image}
+          alt='Eyou Design clothes'
           fill
           className='object-cover'
         />
