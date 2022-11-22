@@ -13,6 +13,8 @@ module.exports = {
         gray: '#CECECE',
         grayText: '#808080',
         lightGray: '#F6F6F6',
+        fb: '#3B5998',
+        google: '#DB4437',
       },
     },
   },
