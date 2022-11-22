@@ -4,7 +4,7 @@ interface RadioBoxWithLabelProps {
 
 const RadioBoxWithLabel = ({ label }: RadioBoxWithLabelProps) => {
   return (
-    <label className='md:w-2/3 block cursor-pointer'>
+    <label className='md:w-2/3 lg:w-full block cursor-pointer'>
       <input className='mr-2 leading-tight border-gray' type='checkbox' />
       <span className='text-md'>{label}</span>
     </label>

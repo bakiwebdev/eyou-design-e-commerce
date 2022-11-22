@@ -13,16 +13,16 @@ const Login = () => {
     <div className='relative'>
       <NavBar />
       <SectionWrapper>
-        <div className='my-5 flex flex-col justify-center items-start'>
+        <div className='my-5 flex lg:flex-1 flex-col justify-center items-start lg:items-center'>
           <Link
             href={'/'}
-            className='flex justify-center items-center gap-5 my-6 cursor-pointer'>
+            className='flex w-full justify-start items-center gap-5 my-6 cursor-pointer'>
             <LeftArrowIcon />
             <span className='font'>Back to home</span>
           </Link>
-          <div className='flex flex-col justify-start gap-3'>
+          <div className='flex flex-col justify-start lg:items-center gap-3 lg:max-w-md mx-auto'>
             <h1 className='font-bold text-3xl my-3'>Log in</h1>
-            <p className='text-grayText font-light text-lg my-3 tracking-wider leading-6 font-poppins'>
+            <p className='text-grayText font-light text-lg my-3 tracking-wider lg:text-center leading-6 font-poppins'>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s
@@ -39,18 +39,18 @@ const Login = () => {
               onChange={() => {}}
               type={'password'}
             />
-            <div className='flex justify-between px-2 my-1'>
+            <div className='flex lg:w-full justify-between px-2 my-1'>
               <RadioBoxWithLabel label='Keep me signed in' />
               <Link href={'/forget-password'}>
                 <span className='text-grayText text-md'>Forgot password?</span>
               </Link>
             </div>
-            <div className='flex justify-around my-4 gap-4'>
+            <div className='flex lg:w-full justify-around my-4 gap-4'>
               <FacebookButton onClick={() => {}} />
               <GmailButton onClick={() => {}} />
             </div>
             <Button name='Sign up' onClick={() => {}} primary width='full' />
-            <div className='flex justify-center my-4 gap-3'>
+            <div className='flex justify-center gap-3 lg:gap-10 my-4'>
               <span className='text-grayText text-md'>
                 Dont have an account?
               </span>

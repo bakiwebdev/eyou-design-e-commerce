@@ -13,18 +13,18 @@ const SignUp = () => {
     <div className='relative'>
       <NavBar />
       <SectionWrapper>
-        <div className='my-5 flex flex-col justify-center items-start'>
+        <div className='my-5 flex lg:flex-1 flex-col justify-center items-start lg:items-center'>
           <Link
             href={'/'}
-            className='flex justify-center items-center gap-5 my-6 cursor-pointer'>
+            className='flex w-full justify-start items-center gap-5 my-6 cursor-pointer'>
             <LeftArrowIcon />
             <span className='font'>Back to home</span>
           </Link>
-          <div className='flex flex-col justify-start gap-3'>
-            <h1 className='font-bold text-3xl my-3'>
+          <div className='flex flex-col justify-start lg:items-center gap-3 lg:max-w-md mx-auto'>
+            <h1 className='font-bold text-3xl my-3 text-center'>
               Create an account and discover the benefits
             </h1>
-            <p className='text-grayText font-light text-lg my-3 tracking-wider leading-6 font-poppins'>
+            <p className='text-grayText font-light text-lg my-3 tracking-wider leading-6 font-poppins text-center'>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
@@ -52,14 +52,14 @@ const SignUp = () => {
               onChange={() => {}}
               type={'password'}
             />
-            <div className='flex justify-between px-2 my-1'>
+            <div className='flex lg:w-full justify-between px-2 my-1'>
               <RadioBoxWithLabel
                 label={
                   'I agree to the Google Terms of Service and Privacy Policy'
                 }
               />
             </div>
-            <div className='flex justify-around my-4 gap-4'>
+            <div className='flex lg:w-full justify-around my-4 gap-4'>
               <FacebookButton onClick={() => {}} />
               <GmailButton onClick={() => {}} />
             </div>
