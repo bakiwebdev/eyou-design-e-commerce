@@ -117,8 +117,8 @@ const ProductDetail = () => {
         {/* rating */}
         <div className='flex flex-col gap-4'>
           {/* total rating */}
-          <div className='flex flex-col gap-2'>
-            <p className='text-6xl font-semibold'>4.5</p>
+          <div className='flex gap-2 justify-start items-center'>
+            <p className='text-3xl font-semibold'>4.5</p>
             <ReactStars
               value={4.5}
               half={true}
@@ -129,7 +129,7 @@ const ProductDetail = () => {
             />
           </div>
           {/* suggest rating */}
-          <div className='flex flex-col gap-1'>
+          {/* <div className='flex flex-col gap-1'>
             <p className='text-sm text-grayText uppercase'>
               Review this product
             </p>
@@ -140,7 +140,7 @@ const ProductDetail = () => {
               size={50}
               color2={'#ffd700'}
             />
-          </div>
+          </div> */}
         </div>
         {/* Quantity and add cart button */}
         <div className='flex gap-4 items-end'>
